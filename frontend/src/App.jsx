@@ -35,8 +35,8 @@ const App = () => {
     const fetchData = async () => {
       try {
         const [productsRes, categoriesRes] = await Promise.all([
-          fetch('https://fakestoreapi.com/products'),
-          fetch('https://fakestoreapi.com/products/categories'),
+          fetch('/api/products'),
+          fetch('/api/categories'),
         ]);
         const [productsData, categoriesData] = await Promise.all([
           productsRes.json(),
