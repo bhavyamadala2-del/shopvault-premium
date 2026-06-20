@@ -1,31 +1,37 @@
 import express from 'express';
 import cors from 'cors';
+import path from 'path';
+import { fileURLToPath } from 'url';
 import productRoutes from './routes/products.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const app = express();
 const PORT = process.env.PORT || 5001;
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:3000'],
+  origin: '*',
   credentials: true,
 }));
 app.use(express.json());
 
-// Routes
+// API Routes
 app.use('/api', productRoutes);
 
-// Health check
-app.get('/', (req, res) => {
-  res.json({
-    message: '🚀 ShopVault API is running',
-    endpoints: {
-      products: '/api/products',
-      singleProduct: '/api/products/:id',
-      categories: '/api/categories',
-      productsByCategory: '/api/products/category/:name',
-    },
-  });
+// Health check endpoint (optional, keeping it at /api/health just in case)
+app.get('/api/health', (req, res) => {
+  res.json({ message: '🚀 ShopVault API is running' });
+});
+
+// Serve frontend static files
+const frontendDistPath = path.join(__dirname, '../frontend/dist');
+app.use(express.static(frontendDistPath));
+
+// Catch-all route to serve React app for client-side routing
+app.get('*', (req, res) => {
+  res.sendFile(path.join(frontendDistPath, 'index.html'));
 });
 
 // Start server
