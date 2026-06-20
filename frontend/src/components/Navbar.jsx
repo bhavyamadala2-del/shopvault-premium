@@ -1,11 +1,12 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = ({ cartCount, onCartOpen, searchQuery, onSearchChange }) => {
   const [mobileSearch, setMobileSearch] = useState(false);
 
   return (
     <nav className="navbar">
-      <div className="navbar-brand">
+      <Link to="/" className="navbar-brand">
         <div className="brand-logo">
           <span className="logo-icon">⚡</span>
         </div>
@@ -13,7 +14,7 @@ const Navbar = ({ cartCount, onCartOpen, searchQuery, onSearchChange }) => {
           <span className="brand-name">ShopVault</span>
           <span className="brand-tagline">Premium Store</span>
         </div>
-      </div>
+      </Link>
 
       <div className={`navbar-search ${mobileSearch ? 'mobile-open' : ''}`}>
         <div className="search-wrapper">
@@ -34,6 +35,9 @@ const Navbar = ({ cartCount, onCartOpen, searchQuery, onSearchChange }) => {
       </div>
 
       <div className="navbar-actions">
+        <Link to="/" className="nav-link-btn">Home</Link>
+        <Link to="/about" className="nav-link-btn">About</Link>
+
         <button
           className="mobile-search-toggle"
           onClick={() => setMobileSearch(!mobileSearch)}
@@ -44,10 +48,6 @@ const Navbar = ({ cartCount, onCartOpen, searchQuery, onSearchChange }) => {
 
         <button className="nav-icon-btn" aria-label="Wishlist">
           <span>♡</span>
-        </button>
-
-        <button className="nav-icon-btn" aria-label="Profile">
-          <span>👤</span>
         </button>
 
         <button
