@@ -32,9 +32,9 @@ const CartSidebar = ({ cart, onClose, onUpdateQty, onRemove }) => {
                 />
                 <div className="cart-item-info">
                   <p className="cart-item-title">{item.title}</p>
-                  <p className="cart-item-price">
-                    ${(item.price * item.qty).toFixed(2)}
-                  </p>
+                  <div className="cart-item-price">
+                    ₹{(item.price * item.qty).toFixed(2)}
+                  </div>
                   <div className="qty-controls">
                     <button
                       className="qty-btn"
@@ -69,8 +69,10 @@ const CartSidebar = ({ cart, onClose, onUpdateQty, onRemove }) => {
         {cart.length > 0 && (
           <div className="cart-footer">
             <div className="cart-total">
-              <span className="cart-total-label">Total</span>
-              <span className="cart-total-price">${total.toFixed(2)}</span>
+              <div className="cart-total-row">
+                <span>Total</span>
+                <span className="cart-total-price">₹{total.toFixed(2)}</span>
+              </div>
             </div>
             <button className="checkout-btn">
               Proceed to Checkout →

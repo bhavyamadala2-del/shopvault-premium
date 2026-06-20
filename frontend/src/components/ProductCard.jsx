@@ -54,7 +54,7 @@ const ProductCard = ({ product, onAddToCart, onOpenModal, wishlist, onToggleWish
         </div>
 
         <div className="card-footer">
-          <span className="card-price">${product.price.toFixed(2)}</span>
+          <span className="card-price">₹{product.price.toFixed(2)}</span>
           <button
             className="add-to-cart-btn"
             onClick={(e) => {

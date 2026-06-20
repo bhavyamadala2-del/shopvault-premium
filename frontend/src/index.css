@@ -1,40 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap');
 
 :root {
-  --bg-primary: #0a0a0f;
-  --bg-secondary: #111118;
-  --bg-card: #16161f;
-  --bg-glass: rgba(255, 255, 255, 0.04);
-  --bg-glass-hover: rgba(255, 255, 255, 0.08);
-  --border-glass: rgba(255, 255, 255, 0.08);
-  --border-hover: rgba(139, 92, 246, 0.5);
+  /* Soft, elegant light backgrounds based on reference */
+  --bg-primary: #f4f1ea;
+  --bg-secondary: #eaddd0;
+  --bg-card: #ffffff;
+  --bg-glass: rgba(244, 241, 234, 0.7);
+  --bg-glass-hover: rgba(244, 241, 234, 0.9);
+  
+  /* Borders and shadows */
+  --border-glass: rgba(70, 139, 130, 0.15);
+  --border-hover: rgba(70, 139, 130, 0.35);
+  --shadow-card: 0 10px 40px rgba(44, 40, 37, 0.05);
+  --shadow-glow: 0 0 40px rgba(70, 139, 130, 0.15);
+  --shadow-hover: 0 15px 50px rgba(70, 139, 130, 0.2);
 
-  --accent-primary: #8b5cf6;
-  --accent-secondary: #6d28d9;
-  --accent-glow: rgba(139, 92, 246, 0.3);
-  --accent-pink: #ec4899;
-  --accent-cyan: #06b6d4;
+  /* Premium Accents: Teal & Terracotta */
+  --accent-primary: #3b887b;
+  --accent-secondary: #2f6d62;
+  --accent-glow: rgba(59, 136, 123, 0.2);
+  --accent-pink: #cc4c39;
+  --accent-cyan: #f5dfb8;
 
-  --text-primary: #f0f0ff;
-  --text-secondary: #a0a0b8;
-  --text-muted: #5a5a72;
+  /* Typography */
+  --text-primary: #2c2825;
+  --text-secondary: #5e564d;
+  --text-muted: #8a8276;
 
-  --gradient-hero: linear-gradient(135deg, #1a0533 0%, #0a0a1a 50%, #001533 100%);
-  --gradient-card: linear-gradient(145deg, #1a1a26, #0f0f1a);
-  --gradient-accent: linear-gradient(135deg, #8b5cf6, #ec4899);
-  --gradient-btn: linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%);
+  /* Gradients */
+  --gradient-hero: linear-gradient(135deg, #f4f1ea 0%, #eaddd0 50%, #dcd1c4 100%);
+  --gradient-card: linear-gradient(145deg, #ffffff, #faf9f6);
+  --gradient-accent: linear-gradient(135deg, #3b887b, #2f6d62);
+  --gradient-btn: linear-gradient(135deg, #3b887b 0%, #2f6d62 100%);
 
-  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.4);
-  --shadow-glow: 0 0 40px rgba(139, 92, 246, 0.2);
-  --shadow-hover: 0 8px 40px rgba(139, 92, 246, 0.35);
-
+  /* Geometry */
   --radius-sm: 8px;
   --radius-md: 14px;
   --radius-lg: 20px;
   --radius-xl: 28px;
 
-  --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-  --transition-slow: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  /* Animations */
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 *, *::before, *::after {

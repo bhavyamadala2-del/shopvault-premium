@@ -2,181 +2,241 @@
   {
     "id": 1,
     "title": "Premium Slim Fit T-Shirt",
-    "price": 22.99,
+    "price": 1908,
     "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. Solid stitched shirts with round neck made for durability and a great fit.",
     "category": "men's clothing",
     "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=400&fit=crop",
-    "rating": { "rate": 4.1, "count": 259 }
+    "rating": {
+      "rate": 4.1,
+      "count": 259
+    }
   },
   {
     "id": 2,
     "title": "Men's Casual Premium Slim Fit T-Shirts",
-    "price": 22.30,
+    "price": 1851,
     "description": "Slim-fitting style with contrast raglan long sleeve. Three-button henley placket, lightweight and soft fabric. Comfortable for everyday wearing with solid stitched construction.",
     "category": "men's clothing",
     "image": "https://images.unsplash.com/photo-1622445275463-afa2ab738c34?w=400&h=400&fit=crop",
-    "rating": { "rate": 4.1, "count": 259 }
+    "rating": {
+      "rate": 4.1,
+      "count": 259
+    }
   },
   {
     "id": 3,
     "title": "Men's Cotton Jacket",
-    "price": 55.99,
+    "price": 4647,
     "description": "Great outerwear cotton jacket for everyday comfort and casual style. Features soft fabric, full zip closure, and multiple pockets for convenience.",
     "category": "men's clothing",
     "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=400&fit=crop",
-    "rating": { "rate": 4.7, "count": 500 }
+    "rating": {
+      "rate": 4.7,
+      "count": 500
+    }
   },
   {
     "id": 4,
     "title": "Men's Casual Slim Fit Jacket",
-    "price": 15.99,
+    "price": 1327,
     "description": "The color could be slightly different between on the screen and in practice. Stylish slim-fit casual jacket perfect for layering.",
     "category": "men's clothing",
     "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400&h=400&fit=crop",
-    "rating": { "rate": 2.1, "count": 430 }
+    "rating": {
+      "rate": 2.1,
+      "count": 430
+    }
   },
   {
     "id": 5,
     "title": "John Hardy Women's Gold Dragon Bracelet",
-    "price": 695.00,
+    "price": 57685,
     "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance.",
     "category": "jewelery",
     "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400&h=400&fit=crop",
-    "rating": { "rate": 4.6, "count": 400 }
+    "rating": {
+      "rate": 4.6,
+      "count": 400
+    }
   },
   {
     "id": 6,
     "title": "Solid Gold Petite Micropave Diamond Ring",
-    "price": 168.00,
+    "price": 13944,
     "description": "Satisfaction guaranteed. Return or exchange any order within 30 days. Round-cut white diamond micropave ring in 10k gold with elegant finishing.",
     "category": "jewelery",
     "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=400&h=400&fit=crop",
-    "rating": { "rate": 3.9, "count": 70 }
+    "rating": {
+      "rate": 3.9,
+      "count": 70
+    }
   },
   {
     "id": 7,
     "title": "White Gold Plated Princess Cut CZ Ring",
-    "price": 9.99,
+    "price": 829,
     "description": "Classic created wedding engagement ring set. Comes in all sizes with a perfect fit guarantee. Made with premium white gold plating and sparkling CZ stones.",
     "category": "jewelery",
     "image": "https://images.unsplash.com/photo-1603561596112-0a132b757442?w=400&h=400&fit=crop",
-    "rating": { "rate": 3.0, "count": 400 }
+    "rating": {
+      "rate": 3.0,
+      "count": 400
+    }
   },
   {
     "id": 8,
     "title": "Rose Gold Plated Stainless Steel Earrings",
-    "price": 10.99,
+    "price": 912,
     "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made with hypoallergenic stainless steel. Lightweight, comfortable, and perfect for everyday wear.",
     "category": "jewelery",
     "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400&h=400&fit=crop",
-    "rating": { "rate": 1.9, "count": 100 }
+    "rating": {
+      "rate": 1.9,
+      "count": 100
+    }
   },
   {
     "id": 9,
     "title": "WD 2TB External Hard Drive Portable",
-    "price": 64.00,
+    "price": 5312,
     "description": "USB 3.0 and USB 2.0 compatible. Fast data transfers. Improve PC performance. High capacity, lightweight and portable design for on-the-go storage.",
     "category": "electronics",
-    "image": "https://images.unsplash.com/photo-1531492746076-161ca9bcad09?w=400&h=400&fit=crop",
-    "rating": { "rate": 3.3, "count": 203 }
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400&h=400&fit=crop",
+    "rating": {
+      "rate": 3.3,
+      "count": 203
+    }
   },
   {
     "id": 10,
     "title": "SanDisk SSD PLUS 1TB Internal SSD",
-    "price": 109.00,
+    "price": 9047,
     "description": "Easy upgrade for faster boot up, shutdown, application load and response. Boosts burst write performance for improved PC performance. Read/write speeds up to 535MB/s.",
     "category": "electronics",
     "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=400&h=400&fit=crop",
-    "rating": { "rate": 2.9, "count": 470 }
+    "rating": {
+      "rate": 2.9,
+      "count": 470
+    }
   },
   {
     "id": 11,
     "title": "Silicon Power 256GB SSD A55",
-    "price": 109.00,
+    "price": 9047,
     "description": "3D NAND flash delivers higher performance versus traditional NAND. SLC Cache Technology effectively mimics SLC performance and provides high transfer speeds.",
     "category": "electronics",
     "image": "https://images.unsplash.com/photo-1625961332771-3f40b0e2bdcf?w=400&h=400&fit=crop",
-    "rating": { "rate": 4.8, "count": 319 }
+    "rating": {
+      "rate": 4.8,
+      "count": 319
+    }
   },
   {
     "id": 12,
     "title": "WD 4TB Gaming Drive - Black",
-    "price": 114.00,
+    "price": 9462,
     "description": "Expand your storage with the WD Gaming Drive. Works with any USB-enabled device. Plug and play ready with a high-capacity 4TB drive for all your games.",
     "category": "electronics",
     "image": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?w=400&h=400&fit=crop",
-    "rating": { "rate": 4.8, "count": 400 }
+    "rating": {
+      "rate": 4.8,
+      "count": 400
+    }
   },
   {
     "id": 13,
     "title": "Acer SB220Q bi 21.5\" IPS Monitor",
-    "price": 599.00,
+    "price": 49717,
     "description": "21.5 inches Full HD (1920 x 1080) widescreen IPS display. Ultra-thin zero frame design provides maximum visibility. AMD FreeSync technology for smooth gameplay.",
     "category": "electronics",
     "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400&h=400&fit=crop",
-    "rating": { "rate": 2.9, "count": 250 }
+    "rating": {
+      "rate": 2.9,
+      "count": 250
+    }
   },
   {
     "id": 14,
     "title": "Samsung 49\" Class Curved Gaming Monitor",
-    "price": 999.99,
+    "price": 82999,
     "description": "49-inch super ultrawide dual QHD (5120x1440) display with 32:9 aspect ratio. 1000R curvature, 1ms response time, and 240Hz refresh rate for immersive gaming.",
     "category": "electronics",
     "image": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=400&h=400&fit=crop",
-    "rating": { "rate": 2.2, "count": 140 }
+    "rating": {
+      "rate": 2.2,
+      "count": 140
+    }
   },
   {
     "id": 15,
     "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket",
-    "price": 56.99,
+    "price": 4730,
     "description": "Lightweight perfect for trip or casual wear. Shell: 100% Polyester, Lining: 100% Polyester. Detachable hood with adjustable drawstrings.",
     "category": "women's clothing",
-    "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400&h=400&fit=crop",
-    "rating": { "rate": 2.6, "count": 235 }
+    "image": "https://images.unsplash.com/photo-1544441893-675973e31985?w=400&h=400&fit=crop",
+    "rating": {
+      "rate": 2.6,
+      "count": 235
+    }
   },
   {
     "id": 16,
     "title": "Lock and Love Women's Removable Hooded Jacket",
-    "price": 29.95,
+    "price": 2486,
     "description": "100% Polyester, Machine Wash. Lightweight faux leather moto jacket with removable hood. Adjustable drawstring at the hood and waist for a custom fit.",
     "category": "women's clothing",
-    "image": "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?w=400&h=400&fit=crop",
-    "rating": { "rate": 2.9, "count": 340 }
+    "image": "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=400&h=400&fit=crop",
+    "rating": {
+      "rate": 2.9,
+      "count": 340
+    }
   },
   {
     "id": 17,
     "title": "Rain Jacket Women Windbreaker Striped",
-    "price": 39.99,
+    "price": 3319,
     "description": "Lightweight perfect for trip or casual wear. Windproof design with adjustable waist. 100% Polyester. Comfortable and breathable.",
     "category": "women's clothing",
     "image": "https://images.unsplash.com/photo-1525450824786-227cbef70703?w=400&h=400&fit=crop",
-    "rating": { "rate": 3.8, "count": 679 }
+    "rating": {
+      "rate": 3.8,
+      "count": 679
+    }
   },
   {
     "id": 18,
     "title": "MBJ Women's Solid Short Sleeve Boat Neck Top",
-    "price": 9.85,
+    "price": 818,
     "description": "95% Rayon, 5% Spandex. Made in USA. Lightweight fabric with great stretch for comfort. Hand-wash only. Lightly lined for a polished look.",
     "category": "women's clothing",
-    "image": "https://images.unsplash.com/photo-1434389677669-e08b4cda3a20?w=400&h=400&fit=crop",
-    "rating": { "rate": 4.7, "count": 130 }
+    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=400&h=400&fit=crop",
+    "rating": {
+      "rate": 4.7,
+      "count": 130
+    }
   },
   {
     "id": 19,
     "title": "Opna Women's Short Sleeve V-Neck T-Shirt",
-    "price": 7.95,
+    "price": 660,
     "description": "100% Polyester, Machine Wash. Lightweight, Classic Slim Fit. Soft fabric with a breathable feel, perfect for layering or wearing on its own.",
     "category": "women's clothing",
     "image": "https://images.unsplash.com/photo-1485462537746-965f33f7f6a7?w=400&h=400&fit=crop",
-    "rating": { "rate": 4.5, "count": 146 }
+    "rating": {
+      "rate": 4.5,
+      "count": 146
+    }
   },
   {
     "id": 20,
     "title": "DANVOUY Women's Cotton T-Shirt",
-    "price": 12.99,
+    "price": 1078,
     "description": "95% Cotton, 5% Spandex. Features casual print with a round crew neckline. Lightweight and soft, perfect for summer. Machine washable and easy care.",
     "category": "women's clothing",
-    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=400&h=400&fit=crop",
-    "rating": { "rate": 3.6, "count": 145 }
+    "image": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=400&h=400&fit=crop",
+    "rating": {
+      "rate": 3.6,
+      "count": 145
+    }
   }
 ]

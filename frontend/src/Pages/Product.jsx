@@ -119,8 +119,10 @@ const Product = () => {
                 {product.rating?.rate} out of 5 &nbsp;·&nbsp; {product.rating?.count} reviews
               </span>
             </div>
-
-            <p className="product-detail-price">${product.price?.toFixed(2)}</p>
+            
+            <div className="product-detail-price-box">
+              <p className="product-detail-price">₹{product.price?.toFixed(2)}</p>
+            </div>
 
             <hr className="modal-divider" />
 

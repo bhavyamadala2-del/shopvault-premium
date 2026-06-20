@@ -38,7 +38,9 @@ const ProductModal = ({ product, onClose, onAddToCart, wishlist, onToggleWishlis
             </span>
           </div>
 
-          <p className="modal-price">${product.price.toFixed(2)}</p>
+          <div className="modal-price-rating">
+            <p className="modal-price">₹{product.price.toFixed(2)}</p>
+          </div>
 
           <hr className="modal-divider" />
 

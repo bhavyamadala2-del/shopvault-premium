@@ -1,8 +1,23 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Navbar = ({ cartCount, onCartOpen, searchQuery, onSearchChange }) => {
   const [mobileSearch, setMobileSearch] = useState(false);
+  const [user, setUser] = useState(null);
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    try {
+      const storedUser = localStorage.getItem('shopvault-user');
+      if (storedUser) setUser(JSON.parse(storedUser));
+    } catch {}
+  }, []);
+
+  const handleLogout = () => {
+    localStorage.removeItem('shopvault-user');
+    setUser(null);
+    navigate('/login');
+  };
 
   return (
     <nav className="navbar">
@@ -23,8 +38,8 @@ const Navbar = ({ cartCount, onCartOpen, searchQuery, onSearchChange }) => {
             type="text"
             className="search-input"
             placeholder="Search products..."
-            value={searchQuery}
-            onChange={(e) => onSearchChange(e.target.value)}
+            value={searchQuery || ''}
+            onChange={(e) => onSearchChange && onSearchChange(e.target.value)}
           />
           {searchQuery && (
             <button className="search-clear" onClick={() => onSearchChange('')}>
@@ -38,16 +53,24 @@ const Navbar = ({ cartCount, onCartOpen, searchQuery, onSearchChange }) => {
         <Link to="/" className="nav-link-btn">Home</Link>
         <Link to="/about" className="nav-link-btn">About</Link>
 
+        {user ? (
+          <div className="user-menu">
+            <span className="user-name">Hey, {user.name}</span>
+            <button className="logout-btn" onClick={handleLogout}>Logout</button>
+          </div>
+        ) : (
+          <div className="auth-buttons">
+            <Link to="/login" className="login-btn">Log In</Link>
+            <Link to="/register" className="signup-btn">Sign Up</Link>
+          </div>
+        )}
+
         <button
           className="mobile-search-toggle"
           onClick={() => setMobileSearch(!mobileSearch)}
           aria-label="Toggle search"
         >
           🔍
-        </button>
-
-        <button className="nav-icon-btn" aria-label="Wishlist">
-          <span>♡</span>
         </button>
 
         <button

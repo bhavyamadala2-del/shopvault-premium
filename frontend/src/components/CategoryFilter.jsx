@@ -38,9 +38,9 @@ const CategoryFilter = ({ categories, activeCategory, onCategoryChange, products
 
       <div className="price-range">
         <label>
-          Max Price <span>$1000</span>
+          Max Price <span>₹100000</span>
         </label>
-        <input type="range" min="0" max="1000" defaultValue="1000" />
+        <input type="range" min="0" max="100000" defaultValue="100000" />
       </div>
 
       <hr className="sidebar-divider" />
